@@ -1,0 +1,214 @@
+@font-face {
+	font-family: "myFont";
+	src: url("RIVERHACK.ttf");
+
+}
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin:0;
+	padding: 0;
+	text-align: center;
+}
+
+body {
+ 	background-color:  #FFCAD4;
+	font-family: 'Poppins', sans-serif;
+}
+
+.body {
+	padding-top: 50px;
+}
+
+.scrolly {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%; 
+	width: 100%;
+	color: white;
+	text-align: center;
+	display: table;
+}
+#email {
+	text-align: center;
+
+}
+/* STYLE TEXT */
+
+.scrolly h1 {
+	font-family: "myFont", sans-serif;
+	display: table-cell;
+  	vertical-align: middle;
+  	color: rgb(255, 255, 255);
+  	font-size: 950%;
+  	font-weight: lighter;
+	padding: 20%;
+}
+.scroll-txt{
+  	padding: 10% 70px;
+  	color: black;
+}
+p{
+	padding-bottom: 1%;
+	padding-right: 18%;
+	padding-left: 18%;
+	text-align: center;
+}
+h2 {
+	font-style: bold;
+	padding-top: 50px;
+  	padding-bottom: 20px;
+  	text-align: center;
+	font-size: 25px;
+}
+ul{
+	list-style-position: inside;
+	text-align: center;
+	padding-right: 18%;
+	padding-left: 18%;
+}
+input {
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 8px;
+	padding: 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+	font-size: 18px;
+	font-family: sans-serif;
+}
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+a{
+	color: black;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #ffa3b4;
+}
+
+/* STYLE IMAGES */
+.bg1 {
+	background-image: url("assets/abortion.jpeg");
+}
+.bg2 {
+	background-image: url("assets/abortion1.jpeg");
+}
+.bg3 {
+	background-image: url("assets/abortion2.png");
+}
+.bg4{
+	background-image: url("assets/roevwade.jpeg");
+}
+.bg5{
+	background-image: url("assets/protest.jpeg");
+}
+.bg6 {
+	background-image: url("assets/resources.jpeg");
+}
+img{
+	height: 200px;
+	padding: 15px;
+	
+}
+
+/* STYLE NAV BAR */
+#nav li a {
+	display: block;
+	color: #FFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+
+#nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff5d73;
+  position: fixed;
+  width: 100%;
+	
+}
+
+#nav li {
+  	float: left;
+	border-right: 1px solid #FFCAD4;
+}
+
+
+#nav li a:hover {
+  background-color: #FFFF;
+  color: #ff5d73;
+}
+
+/* STYLE BUTTONS */
+button {
+	padding: 1% 18%;
+	margin-bottom: 1%;
+	background-color:#ff5d73;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	border-radius: 10px;
+	border: 0px;
+}
+button:hover {
+	color:#ff5d73;
+	background-color: white;
+}
+#toTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 7px 15px;
+	border-radius: 50%;
+
+}
+#toTop1 {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 7px 15px;
+	border-radius: 50%;
+}
+#toTop2 {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 7px 15px;
+	border-radius: 50%;
+}
+
+
+
+/* ADD MORE! */
