@@ -1,0 +1,95 @@
+
+body {
+  	width: 100%;
+	background-color: #D2AB99;
+	font-family: 'Anek Latin', sans-serif;
+}
+.body .navnmain{
+	height: 80%;
+}
+#homepage {
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	background-color: #8DB38B;
+
+}
+#about {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	background-color: #8DB38B;
+}
+#hi{
+	text-align: center; 
+}
+#description{
+	float: left;
+	margin:0;
+	padding-top: 50px;
+  	padding-right: 100px;
+	font-size: 18px;	
+	text-align: center;
+}
+
+#love{
+	text-align: center;
+}
+.lovetxt{
+	word-spacing: 18em;
+	font-size: 20px;
+}
+.lovetxt1{
+	word-spacing: 300px;
+	font-size:20px;
+}
+.love{
+	height: 200px;
+  	border: 6px solid #56876D;
+  	border-radius: 60%;
+  	margin: 40px;
+}
+
+.navnmainanime{
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+	background-color: #8DB38B;
+}
+.navnmain {
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	padding: 2%;
+	background-color: #8DB38B;
+}
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+  	font-size: 20px;
+	background-color: #56876D;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+}
+li {
+	float: left; 
+	border-right: 1px solid #D2AB99;
+}
+li a {
+	text-align: center;
+	color: #f2f2f2;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+li a:hover {
+  background-color: #04724D;
+}
+#project2{
+	height: 400px;
+	width: 540px;
+}
